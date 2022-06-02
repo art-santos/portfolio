@@ -6,7 +6,6 @@ import {
   Stack,
   useColorModeValue,
   Text,
-  Image,
 } from "@chakra-ui/react";
 import { RiGithubLine } from "react-icons/ri";
 
@@ -26,7 +25,7 @@ const Home = () => {
           letterSpacing={{ base: "normal", md: "tight" }}
           color={useColorModeValue("gray.900", "gray.100")}
         >
-          Hi 👋 <br /> I'm{" "}
+          Hi 👋 <br /> I&#39;m{" "}
           <Text
             display={{ base: "block", lg: "inline" }}
             w="full"
@@ -57,12 +56,12 @@ const Home = () => {
           color={useColorModeValue("gray.600", "gray.300")}
         >
           If you want to get in contact with me send me a mail clicking in the
-          button bellow. I'm free to answer your dobts, chat or simply help you.
-          I'm a expert React.js developer and a Blockchain developer. I've been
-          working with development for 6+ years, and have worked almost with all
-          sorts of web applications, specially the ones focused in SEO. I also
-          founded an startup in 2019 and have created many products from
-          scratch.
+          button bellow. I&#39;m free to answer your dobts, chat or simply help
+          you. I&#39;m a expert React.js developer and a Blockchain developer.
+          I&#39;ve been working with development for 6+ years, and have worked
+          almost with all sorts of web applications, specially the ones focused
+          in SEO. I also founded an startup in 2019 and have created many
+          products from scratch.
         </chakra.p>
         <Stack
           direction={{ base: "column", sm: "row" }}
